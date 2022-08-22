@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+
+}
+
+body{
+    background: rgb(199,234,235);
+    background: radial-gradient(circle, rgba(199,234,235,1) 0%, rgba(122,201,245,1) 84%, rgba(92,182,240,1) 100%);
+}
+
+h1{
+    font-size: 70px;
+    padding-top:100px ;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    
+}
+
+.form-container{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    
+
+}
+
+#tweet{
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 200px;
+    min-height: 200px;
+    border: none;
+    border-radius: 4px;
+    font-size:20px ;
+    padding: 20px;
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.button-container{
+    text-align: center;
+    padding-top: 3px;
+    
+}
+
+.button {
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 500px;
+    background-color: rgb(11, 181, 248);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    font-size:23px;
+    
+}
+
+.li-tweets {
+    padding-top: 10px;
+    font-size: 28px;
+    
+}
+
+.eliminar-tweet{
+    color: red;
+    float: right;
+}
+
+#mistweets{
+    width: 500px;
+    height: 200px;
+}
+
+.mensajeError{
+    height: 40px;
+    width: 500px;
+    font-size: 23px;
+    background-color:red;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 11px;
+
+}
